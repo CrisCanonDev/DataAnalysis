@@ -16,3 +16,17 @@ def sumOfSquares(lst):
     return s
 print(sumOfSquares([-6]))
 print(sumOfSquares([5,9,5]))
+
+
+#Argument Packing
+    #Ability to pass variable number of arguments to a function.
+  # *args
+def sum_of_squares(*t):
+    "Computes the sum of squares of elements in list given as parameter"
+    s=0
+    for x in t:
+        s += x**2
+    return s
+print("\nArgument Packing\n *args \n",sum_of_squares(5))
+print(sum_of_squares(5,9,5))
+          
