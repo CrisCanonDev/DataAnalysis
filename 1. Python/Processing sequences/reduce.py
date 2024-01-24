@@ -1,0 +1,1 @@
+#Reduce function
